@@ -1,3 +1,24 @@
-.container{
-    background: red;
+body{
+    display: grid;
+}
+
+main .container-fluid{
+    height: 300px;
+    display: grid;
+    align-content: center;
+    justify-content: center
+}
+
+.container-fluid{
+    background-color: brown;
+    
+}
+
+.nav-item{
+    color: aliceblue;
+}
+
+.porta{
+    background-image: url("/assets/img/img/banner-bg.jpg");
+    background-size: 100% 100%;
 }
